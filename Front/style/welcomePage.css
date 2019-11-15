@@ -1,0 +1,13 @@
+
+.dropdown:hover .dropdown-menu {
+ display: block;
+}
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+h3 {
+    margin: auto;
+    width: 39%;
+}
