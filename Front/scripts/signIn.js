@@ -15,12 +15,12 @@ function signIn() {
 
 function about() {
     window.location.href = "../html/about.html"
-}
+};
 
 function campaigns() {
     window.location.href = "../html/campaigns.html"
-}
+};
 
 function successful() {
     window.location.href = "../html/successful.html"
-}
+};

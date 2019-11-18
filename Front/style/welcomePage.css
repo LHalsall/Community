@@ -8,6 +8,6 @@
  display: inline-block;
 }
 h3 {
-    margin: auto;
-    width: 39%;
+position: fixed;
+    left: 45%;
 }

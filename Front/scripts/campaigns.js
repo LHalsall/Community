@@ -35,7 +35,7 @@ function showCampaigns(data){
 
         let cardSubText = document.createElement("p2");
         cardSubText.className = "card-text";
-        cardSubText.innerText = '£' + campaign.amount_raised + " of my £" + campaign.goal;
+        cardSubText.innerText = '£' + campaign.amount_raised + " of £" + campaign.goal;
         cardBody.appendChild(cardSubText);
 
         let donate = document.createElement("a");
