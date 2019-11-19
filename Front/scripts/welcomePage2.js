@@ -1,11 +1,3 @@
-
-$(document).ready(function() {
-    $('#carouselExampleControls').carousel({
-        interval: 3000
-    });
-
-});
-
 function home() {
     window.location.href = "../html/welcomePage.html"
 };

@@ -14,15 +14,6 @@ function addNewUser() {
         }),
         headers: { 'Content-Type': 'application/json'}
     })
-        .then(res => {
-            if (res.status === 200) {
-                alert("New User Added!");
-            } else if (res.status ===401) {
-                alert("Error, details input incorrectly!");
-            } else {
-                alert("Registration failed.");
-            };
-        })
-    };
+};
 
 
