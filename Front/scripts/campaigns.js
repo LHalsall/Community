@@ -51,3 +51,5 @@ function showCampaigns(data){
 
      }
 }
+
+// in case of use https://media.mnn.com/assets/images/2017/10/Olena%20Yakobchuk%20shutter.jpg.653x0_q80_crop-smart.jpg

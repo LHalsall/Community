@@ -29,6 +29,8 @@
                         <a onClick="signIn()" class="dropdown-item" href="#">Log In</a>
                         <div class="dropdown-divider"></div>
                         <a onClick="register()" class="dropdown-item" href="#">Create Account</a>
+                        <div class="dropdown-divider"></div>
+                        <a onClick="existingUsers()" class="dropdown-item" href="#">Current Users</a>
                     </div>
 
                     <li class="dropdown">
@@ -40,9 +42,11 @@
                             <a onClick="campaigns()" class="dropdown-item" href="#">Ongoing</a>
                             <div class="dropdown-divider"></div>
                             <a onClick="successful()" class="dropdown-item" href="#">Successful Campaigns</a>
+                            <div class="dropdown-divider"></div>
+                            <a onClick="createCam()" class="dropdown-item" href="#">Create New Campaign</a>
                         </div>
                         <li class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                         Options
                     </a>
@@ -58,10 +62,10 @@
 
     </nav>
 
-    <div class="card bg-dark text-black">
+    <div class="card bg-dark text-white">
         <img src="https://media.nbcnewyork.com/images/652*367/Blobfish_face.jpg" class="card-img" alt="https://media.nbcnewyork.com/images/652*367/Blobfish_face.jpg">
         <div class="card-img-overlay">
-            <div class="card" style="width: 18rem; left: 2%;">
+            <div class="card" style="width: 18rem; left: 2%; background-color: transparent; border-color: transparent;">
                 <form onsubmit="deleteU(); return false">
                     <div>
                         <h4>Delete User:</h4>

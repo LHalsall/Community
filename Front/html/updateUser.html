@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a onClick="home()" class="nav-link" href="#" id="home">Home 
                     <span class="sr-only">(current)</span>
                     </a>
@@ -29,6 +29,8 @@
                         <a onClick="signIn()" class="dropdown-item" href="#">Log In</a>
                         <div class="dropdown-divider"></div>
                         <a onClick="register()" class="dropdown-item" href="#">Create Account</a>
+                        <div class="dropdown-divider"></div>
+                        <a onClick="existingUsers()" class="dropdown-item" href="#">Current Users</a>
                     </div>
 
                     <li class="dropdown">
@@ -40,9 +42,11 @@
                             <a onClick="campaigns()" class="dropdown-item" href="#">Ongoing</a>
                             <div class="dropdown-divider"></div>
                             <a onClick="successful()" class="dropdown-item" href="#">Successful Campaigns</a>
+                            <div class="dropdown-divider"></div>
+                            <a onClick="createCam()" class="dropdown-item" href="#">Create New Campaign</a>
                         </div>
                         <li class="dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                                 Options
                                         </a>
@@ -59,10 +63,10 @@
     </nav>
 
 
-    <div class="card bg-dark text-black">
+    <div class="card bg-dark text-white">
             <img src="http://pixdaus.com/files/items/pics/5/84/263584_32e4a9f1f5e44c974a158c000dacd2f1_large.jpg" class="card-img" alt="http://pixdaus.com/files/items/pics/5/84/263584_32e4a9f1f5e44c974a158c000dacd2f1_large.jpg">
             <div class="card-img-overlay">
-    <div class="card" style="width: 18rem; left: 2%;">
+    <div class="card" style="width: 18rem; left: 2%; background-color: transparent; border-color: transparent;">
     <form onsubmit="updateUsers()">
         <div>
             <h4>Update User:</h4>

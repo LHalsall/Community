@@ -29,6 +29,8 @@
                         <a onClick="signIn()" class="dropdown-item" href="#">Log In</a>
                         <div class="dropdown-divider"></div>
                         <a onClick="register()" class="dropdown-item" href="#">Create Account</a>
+                        <div class="dropdown-divider"></div>
+                        <a onClick="existingUsers()" class="dropdown-item" href="#">Current Users</a>
                     </div>
 
                     <li class="dropdown">
@@ -40,6 +42,8 @@
                             <a onClick="campaigns()" class="dropdown-item" href="#">Ongoing</a>
                             <div class="dropdown-divider"></div>
                             <a onClick="successful()" class="dropdown-item" href="#">Successful Campaigns</a>
+                            <div class="dropdown-divider"></div>
+                            <a onClick="createCam()" class="dropdown-item" href="#">Create New Campaign</a>
                         </div>
                         <li class="dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -57,18 +61,18 @@
         </ul>
         
     </nav>
-
-    <div class="card bg-dark text-black">
-            <img src="https://s-i.huffpost.com/gen/1393785/images/o-HAPPY-DOG-facebook.jpg" class="card-img">
+    
+    <div class="card bg-dark text-white">
+            <img src="https://www.awakenthegreatnesswithin.com/wp-content/uploads/2018/05/Family-Quotes-1-696x419.jpg" class="card-img">
             <div class="card-img-overlay">
-        <div class="card" style="width: 18rem; left: 2%;">
+        <div class="card" style="width: 18rem; left: 2%; background-color: transparent; border-color: transparent;">
     <form onsubmit="signIn()">
         <div>
             <h4>Sign In:</h4>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address:</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <small id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Surname:</label>
