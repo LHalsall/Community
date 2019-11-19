@@ -41,26 +41,28 @@
                             <div class="dropdown-divider"></div>
                             <a onClick="successful()" class="dropdown-item" href="#">Successful Campaigns</a>
                         </div>
+                        <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                                Options
+                                        </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a onClick="updateUser()" class="dropdown-item" href="#">Update User</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a onClick="deleteUser()" class="dropdown-item" href="#">Delete User</a>
+                                </div>
         </div>
         <h3 class="title" id="title1"> Community</h3>
         </li>
         </ul>
 
-        <li class="dropdown active">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                            Options
-                    </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a onClick="updateUser()" class="dropdown-item" href="#">Update User</a>
-                <div class="dropdown-divider"></div>
-                <a onClick="deleteUser()" class="dropdown-item" href="#">Delete User</a>
-            </div>
-
-
-            </div>
     </nav>
 
+
+    <div class="card bg-dark text-black">
+            <img src="http://pixdaus.com/files/items/pics/5/84/263584_32e4a9f1f5e44c974a158c000dacd2f1_large.jpg" class="card-img" alt="http://pixdaus.com/files/items/pics/5/84/263584_32e4a9f1f5e44c974a158c000dacd2f1_large.jpg">
+            <div class="card-img-overlay">
+    <div class="card" style="width: 18rem; left: 2%;">
     <form onsubmit="updateUser()">
         <div>
             <h4>Update User:</h4>
@@ -87,6 +89,8 @@
         </div>
         <button class="btn btn-primary" type="submit">Update</button>
     </form>
+    </div>
+    </div>
 
     <script src="../scripts/welcomePage.js">
 

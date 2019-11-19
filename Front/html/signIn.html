@@ -41,25 +41,27 @@
                             <div class="dropdown-divider"></div>
                             <a onClick="successful()" class="dropdown-item" href="#">Successful Campaigns</a>
                         </div>
+                        <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                                Options
+                                        </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a onClick="updateUser()" class="dropdown-item" href="#">Update User</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a onClick="deleteUser()" class="dropdown-item" href="#">Delete User</a>
+                                </div>
         </div>
         <h3 class="title" id="title1"> Community</h3>
         </li>
         </ul>
-
-
-        <li class="dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                            Options
-                    </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a onClick="updateUser()" class="dropdown-item" href="#">Update User</a>
-                <div class="dropdown-divider"></div>
-                <a onClick="delteUser()" class="dropdown-item" href="#">Delete User</a>
-            </div>
-        </div>
+        
     </nav>
 
+    <div class="card bg-dark text-black">
+            <img src="https://s-i.huffpost.com/gen/1393785/images/o-HAPPY-DOG-facebook.jpg" class="card-img">
+            <div class="card-img-overlay">
+        <div class="card" style="width: 18rem; left: 2%;">
     <form onsubmit="signIn()">
         <div>
             <h4>Sign In:</h4>
@@ -74,6 +76,8 @@
         </div>
         <button type="submit" class="btn btn-primary">Log In</button>
     </form>
+</div>
+</div>
 
     <script src="../scripts/signIn.js"></script>
     <script src="../scripts/welcomePage.js">
